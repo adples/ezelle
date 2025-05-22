@@ -19,7 +19,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-[url(/wp-content/themes/ezelle/theme/images/dot.png)] bg-center bg-size-[18px] mt-15 lg:mt-0'); ?>>
+<body <?php body_class('bg-[url(/wp-content/themes/ezelleit/theme/images/dot.png)] bg-center bg-size-[18px] mt-15 lg:mt-0'); ?>>
 
 <?php wp_body_open(); ?>
 
