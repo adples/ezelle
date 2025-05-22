@@ -1,0 +1,187 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#293387",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#d9e73c",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#D4DEE8",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "primary-dark",
+					"color": "#191950",
+					"name": "Primary Dark"
+				},
+				{
+					"slug": "neutral",
+					"color": "#F0EEEB",
+					"name": "Neutral"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				}
+			],
+			"customGradient": true,
+			"gradients": [
+				{
+					"name": "Default Gradient",
+					"slug": "default-gradient",
+					"gradient": "linear-gradient(to top in oklab, #191950 0%, #293387 100%)"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "100%",
+			"wideSize": "100%"
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fluid": true,
+			"defaultFontSizes": false,
+			"fontSizes": [
+				{
+					"slug": "reduce",
+					"size": ".875rem",
+					"name": "Reduce",
+					"fluid": false
+				},
+				{
+					"slug": "slight-reduce",
+					"size": ".925rem",
+					"name": "Slight Reduce",
+					"fluid": false
+				},
+				{
+					"slug": "heading-1",
+					"size": "3.75rem",
+					"name": "Heading 1",
+					"fluid": false
+				},
+				{
+					"slug": "heading-2",
+					"size": "3rem",
+					"name": "Heading 2",
+					"fluid": false
+				},
+				{
+					"slug": "heading-3",
+					"size": "2.25rem",
+					"name": "Heading 3",
+					"fluid": false
+				},
+				{
+					"slug": "heading-4",
+					"size": "1.875rem",
+					"name": "Heading 4",
+					"fluid": false
+				},
+				{
+					"slug": "heading-5",
+					"name": "Heading 5",
+					"size": "1.5rem",
+					"fluid": false
+				},
+				{
+					"slug": "heading-6",
+					"name": "Heading 6",
+					"size": "1.25rem",
+					"fluid": false
+				}
+			],
+			"fontFamilies": [
+				{
+					"fontFamily": "'Quicksand', sans-serif",
+					"slug": "quicksand",
+					"name": "Quicksand",
+					"fontFace": [
+						{
+							"fontFamily": "'Quicksand', sans-serif",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontWeight": "400 700",
+							"src": [ "file:./fonts/Quicksand/Quicksand-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "'Quicksand', sans-serif",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"fontWeight": "normal",
+							"src": [ "file:./fonts/Quicksand/Quicksand-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "'Oswald', sans-serif",
+					"slug": "oswald",
+					"name": "Oswald",
+					"fontFace": [
+						{
+							"fontFamily": "'Oswald', sans-serif",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontWeight": "400 900",
+							"src": [ "file:./fonts/Oswald/Oswald-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			]
+		},
+		"border": {
+			"color": true,
+			"radius": true
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "'Quicksand', sans-serif"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--primary-dark)"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "#fff"
+				},
+				"border": {
+					"color":"var(--wp--preset--color--primary)",
+					"width":"2px"
+				},
+				"typography": {
+					"fontWeight":"600"
+				}
+			}
+		}
+	}
+}

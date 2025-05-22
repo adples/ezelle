@@ -1,0 +1,18 @@
+{
+	"apiVersion": 3,
+	"name": "acf/breadcrumb",
+	"title": "Breadcrumb",
+	"description": "Custom block.",
+	"keywords": ["breadcrumb","links"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "breadcrumb.php"
+	},
+	"supports": {
+		"anchor": true,
+		"color": {
+			"background": false,
+			"text": true
+		}
+	}
+}

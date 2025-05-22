@@ -1,0 +1,15 @@
+{
+	"apiVersion": 3,
+	"name": "acf/service-highlights",
+	"title": "Service Plan Highlights",
+	"description": "Custom block.",
+	"keywords": ["service","plan","highlights"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "service-highlights.php"
+	},
+	"supports": {
+		"anchor": true,
+		"jsx": false
+	}
+}

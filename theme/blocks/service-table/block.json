@@ -1,0 +1,15 @@
+{
+	"apiVersion": 3,
+	"name": "acf/service-table",
+	"title": "Service Plan Table",
+	"description": "Custom block.",
+	"keywords": ["service","plan","table"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "service-table.php"
+	},
+	"supports": {
+		"anchor": true,
+		"jsx": false
+	}
+}
