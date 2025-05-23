@@ -12,11 +12,11 @@
 <footer id="colophon" class="bg-neutral py-10 xl:py-20">
 	<div class="mx-auto px-6 container">
 		<div class="flex justify-center">
-			<div class="flex-none space-y-6 w-full md:w-10/12 2xl:w-7/12 xl:w-8/12 text-primary text-center">
+			<div class="flex-none space-y-6 w-full md:w-10/12 2xl:w-7/12 xl:w-8/12 text-primary-dark text-center">
 				<?php get_template_part( 'template-parts/layout/partials/logo', null, array('footer' => true)); ?>
 
 				<?php if( get_field('phone','option') && get_field('email','option') ): ?>
-					<div class="font-bold text-lg">
+					<div class="font-bold text-primary text-lg">
 						<a href=""><?php echo get_field('phone','option') ?></a>
 						|
 						<a href=""><?php echo get_field('email','option') ?></a>
@@ -30,7 +30,7 @@
 				<?php endif; ?>
 
 				<div class="text-sm">
-					&copy; <?php echo date("Y").' '.get_bloginfo().' All Rights Reserved'; ?> | <a href="<?php echo esc_url(get_privacy_policy_url()) ?>">Privacy Policy</a>
+					&copy; <?php echo date("Y").' '.get_bloginfo().' All Rights Reserved'; ?> | <a href="<?php echo esc_url(get_privacy_policy_url()) ?>" class="text-primary">Privacy Policy</a>
 				</div>
 			</div>
 		</div>
