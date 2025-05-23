@@ -156,23 +156,16 @@ p.is-style-lead {
 	right: 0;
 	width: 100%;
 	overflow: hidden;
-	@apply lg:top-0 lg:absolute relative pb-[45%] lg:pb-0 lg:w-full lg:h-full;
+	@apply lg:top-0 lg:absolute relative pb-[66.667%] lg:pb-0 lg:w-full lg:h-full;
 	@apply lg:w-[calc(100%+(100vw-64rem)/2)] xl:w-[calc(100%+(100vw-80rem)/2)] 2xl:w-[calc(100%+(100vw-96rem)/2)];
 }
 
 .video-wrapper > iframe {
-	height: 56.25vw;
-	left: 50%;
-	min-height: 101%;
-	min-width: 101%;
-	transform: translate(-50%, -50%);
 	position: absolute;
-	top: 50%;
-	width: 177.77777778vh;
 	z-index: 1;
-
-	/* prevent interaction */
 	pointer-events: none;
+	@apply top-0 left-0 w-full lg:w-[177.77777778vh] lg:min-w-[101%] h-full lg:h-[56.25vw] lg:min-h-[101%];
+	@apply lg:top-[50%] lg:left-[50%] lg:-translate-x-1/2 lg:-translate-y-1/2;
 }
 
 .extend-l::before {
@@ -207,6 +200,10 @@ p.is-style-lead {
 
 .is-style-gradient-overlay {
 	position: relative;
+}
+
+.is-style-rounded-corners {
+	@apply rounded-xl lg:rounded-4xl overflow-hidden;
 }
 
 .bg-filter::before,

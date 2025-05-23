@@ -11,6 +11,11 @@
  * the block editor.
  */
 
+.is-root-container .flex-has-children > div:not(.block-list-appender),
+.is-root-container .grid-has-children > div:not(.block-list-appender) {
+	display: contents;
+}
+
 .entry-header,
 .entry-content {
 	@apply px-8;
@@ -58,11 +63,6 @@
 .wp-block > .wp-block-acf-about-akvm > .container {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
-}
-
-.block-editor .flex-has-children > div:not(.block-list-appender),
-.block-editor .grid-has-children > div:not(.block-list-appender) {
-	display: contents;
 }
 
 .split-list ul {

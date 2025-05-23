@@ -37,11 +37,11 @@ $classes = implode( ' ', $all_classes );
 
 	<div class="mx-auto px-6 container">
 		<div class="flex lg:flex-row flex-col gap-6">
-			<div class="relative lg:order-1 w-full lg:basis-8/15 2xl:basis-9/15">
-				<div class="block lg:top-0 lg:bottom-0 left-6 z-1 lg:absolute bg-primary bg-cover bg-no-repeat bg-center img-extend-r">
+			<div class="relative lg:order-1 pt-10 lg:pt-0 w-full lg:basis-8/15 2xl:basis-9/15">
+				<div class="block lg:top-0 lg:bottom-0 left-6 z-1 lg:absolute bg-cover bg-no-repeat bg-center img-extend-r">
 
 					<?php if( $show_video ): ?>
-					<div class="video-wrapper">
+					<div class="rounded-xl lg:rounded-none video-wrapper">
 					<?php
 					$x='https://player.vimeo.com/video/';
 					$y='&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;autoplay=1&amp;loop=1&amp;background=1';
@@ -55,7 +55,7 @@ $classes = implode( ' ', $all_classes );
 
 				</div>
 			</div>
-			<div class="lg:mb-[8rem] 2xl:mb-[6.5rem] pt-10 xl:pt-20 lg:pb-10 w-full lg:basis-7/15 2xl:basis-6/15">
+			<div class="lg:mb-[8rem] 2xl:mb-[6.5rem] lg:pt-10 xl:pt-20 pb-10 w-full lg:basis-7/15 2xl:basis-6/15">
 				<InnerBlocks class="space-y-4" />
 			</div>
 		</div>
