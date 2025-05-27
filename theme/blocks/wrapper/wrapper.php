@@ -144,7 +144,7 @@ if( get_field('bg') ){
 	<?php if( have_rows('extended_img') ): ?>
 		<?php while( have_rows('extended_img') ): the_row(); ?>
 			<?php
-			$default_img_classes = 'bg-[#dddddd] mx-auto w-[calc(100%-(var(--spacing))*12)] sm:w-[calc(40rem-(var(--spacing))*12)] md:w-[calc(48rem-(var(--spacing))*12)] lg:absolute mb-4 lg:mb-0';
+			$default_img_classes = 'mx-auto w-[calc(100%-(var(--spacing))*12)] sm:w-[calc(40rem-(var(--spacing))*12)] md:w-[calc(48rem-(var(--spacing))*12)] lg:absolute mb-4 lg:mb-0';
 			$spacer_class = '';
 			if( get_sub_field('img_spacer') == 'bottom') $spacer_class = 'top-0 lg:h-[calc(100%-(var(--spacing))*18)]';
 			if( get_sub_field('img_spacer') == 'top') $spacer_class = 'bottom-0 lg:h-[calc(100%-(var(--spacing))*18)]';
