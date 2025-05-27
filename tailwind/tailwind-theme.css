@@ -4,7 +4,7 @@
  * https://tailwindcss.com/docs/theme
  */
 
-/*@plugin "@iconify/tailwind4";*/
+@plugin "@iconify/tailwind4";
 
 /**
  * Your theme variables are merged with Tailwind’s defaults, either extending

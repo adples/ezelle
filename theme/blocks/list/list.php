@@ -14,7 +14,7 @@
  * _tw safelist classes (iconify MDI)
  * icon-[mdi-light--check] icon-[mdi-light--chevron-right] icon-[mdi-light--chevron-double-right]
  * icon-[line-md--my-location-loop] icon-[line-md--phone-call-twotone-loop] icon-[line-md--cloud-alt-upload-twotone-loop]
- * icon-[line-md--hazard-lights-off-filled-loop] icon-[line-md--gauge-twotone-loop] icon-[line-md--chat-round-dots-twotone]
+ * icon-[line-md--hazard-lights-off-filled-loop] icon-[line-md--hazard-lights-off-filled-loop] icon-[line-md--gauge-twotone-loop] icon-[line-md--chat-round-dots-twotone]
  * icon-[line-md--speed-twotone-loop] icon-[line-md--speedometer-loop] icon-[line-md--alert-twotone-loop] icon-[line-md--cog-loop] size-40
  *
  */
