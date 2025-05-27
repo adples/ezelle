@@ -181,7 +181,7 @@ if( get_field('bg') ){
 			?>
 			<?php if( get_sub_field('img') ): ?>
 				<div class="<?php echo $img_classes.' '.$img_radius ?>">
-					<!--<img src="<?php echo get_sub_field('img')['url']?>" class="w-full h-full object-cover rounded-xl lg:rounded-none <?php echo $img_pos.' '.$img_radius ?>"/>-->
+					<img src="<?php echo get_sub_field('img')['url']?>" class="w-full h-full object-cover rounded-xl lg:rounded-none <?php echo $img_pos.' '.$img_radius ?>"/>
 				</div>
 			<?php endif; ?>
 		<?php endwhile; ?>
