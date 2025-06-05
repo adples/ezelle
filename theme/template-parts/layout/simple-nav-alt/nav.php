@@ -18,7 +18,7 @@
 
 		</div>
 
-		<ul id="primary-menu" :class="{'flex': open, 'hidden': !open}" class="hidden lg:flex lg:flex-row flex-col xl:flex-grow items-center 2xl:space-x-16 xl:space-x-12 mb-0 lg:ml-auto 2xl:ml-26 xl:ml-20">
+		<ul id="primary-menu" :class="{'flex': open, 'hidden': !open}" class="hidden lg:flex lg:flex-row flex-col xl:flex-grow items-center lg:space-x-12 2xl:space-x-16 mb-0 lg:ml-auto 2xl:ml-26 xl:ml-20">
 			<?php get_template_part( 'template-parts/layout/simple-nav-alt/nav-menu', null, array('navigation' => $navigation)); ?>
 		</ul>
 	</div>
