@@ -3732,6 +3732,11 @@ p.has-reduce-font-size {
   }
 }
 @media (width >= 64rem) {
+  .lg\:ml-auto {
+    margin-left: auto;
+  }
+}
+@media (width >= 64rem) {
   .lg\:block {
     display: block;
   }
@@ -4598,6 +4603,11 @@ p.has-reduce-font-size {
   }
 }
 @media (width >= 80rem) {
+  .xl\:flex-grow {
+    flex-grow: 1;
+  }
+}
+@media (width >= 80rem) {
   .xl\:items-center {
     align-items: center;
   }
@@ -4690,6 +4700,13 @@ p.has-reduce-font-size {
 @media (width >= 80rem) {
   .xl\:gap-24 {
     gap: calc(var(--spacing) * 24);
+  }
+}
+@media (width >= 80rem) {
+  :where(.xl\:space-x-12 > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(calc(var(--spacing) * 12) * var(--tw-space-x-reverse));
+    margin-inline-end: calc(calc(var(--spacing) * 12) * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 @media (width >= 80rem) {
@@ -5331,6 +5348,13 @@ p.has-reduce-font-size {
 @media (width >= 96rem) {
   .\32 xl\:gap-24 {
     gap: calc(var(--spacing) * 24);
+  }
+}
+@media (width >= 96rem) {
+  :where(.\32 xl\:space-x-16 > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(calc(var(--spacing) * 16) * var(--tw-space-x-reverse));
+    margin-inline-end: calc(calc(var(--spacing) * 16) * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 @media (width >= 96rem) {

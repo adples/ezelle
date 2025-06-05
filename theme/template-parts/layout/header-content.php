@@ -11,7 +11,7 @@
 
 <header id="masthead" class="relative">
 
-	<div class="hidden lg:block relative mx-auto px-6 pt-14 container">
+	<div class="hidden xl:block relative mx-auto px-6 pt-14 container">
 		<div class="top-0 right-6 z-2 absolute bg-secondary shadow-lg px-6 xl:px-8 py-3 xl:py-6 border-2 border-white border-t-0 rounded-bl-xl rounded-br-xl w-70 xl:w-80 font-display text-primary-dark">
 			<p class="mb-3">Learn how our tailored IT services can help support and protect your business.</p>
 			<?php if( get_field('phone','option') ): ?>
