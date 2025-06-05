@@ -5,7 +5,7 @@
 
 $add_class = isset($args['class']) ? $args['class'] : '';
 $color_mode = isset($args['color_mode']) ? $args['color_mode'] : '';
-$logo_size_classes = isset($args['reveal']) ? 'w-[225px]' : 'w-[250px] lg:w-[200px] xl:w-[300px]  2xl:w-[350px]';
+$logo_size_classes = isset($args['reveal']) ? 'w-[225px]' : 'w-[250px] lg:w-[200px] xl:w-[250px]  2xl:w-[350px]';
 $footer = isset($args['footer']) ? true : false;
 
 if( $color_mode === 'light' ){

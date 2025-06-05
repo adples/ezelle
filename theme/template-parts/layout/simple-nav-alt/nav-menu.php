@@ -12,7 +12,7 @@ $reveal = isset($args['reveal']) ? $args['reveal'] : '';
 
 $link_classes = 'flex items-center mt-2 md:mt-0 py-2 md:py-4 focus:shadow-outline focus:outline-none font-display text-primary uppercase';
 
-$add_link_classes = isset($args['reveal']) ? 'text-sm lg:text-base' : ' text-sm lg:text-base xl:text-xl';
+$add_link_classes = isset($args['reveal']) ? 'text-sm lg:text-base' : ' text-sm lg:text-base xl:text-lg 2xl:text-xl';
 $dropdown_classes = isset($args['reveal']) ? ' border-t-1 border-primary lg:bg-white/75 lg:backdrop-blur-sm rounded-b-xl text-primary text-sm' : 'bg-neutral rounded-b-xl text-primary';
 ?>
 
