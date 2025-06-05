@@ -30,7 +30,7 @@
 				<?php endif; ?>
 
 				<div class="text-sm">
-					&copy; <?php echo date("Y").' '.get_bloginfo().' All Rights Reserved'; ?> | <a href="<?php echo get_home_url().'/legal/'; ?>" class="text-primary">Privacy Policy</a>
+					&copy; <?php echo date("Y").' '.get_bloginfo().' All Rights Reserved'; ?> | <a href="<?php echo get_home_url().'/legal/'; ?>" class="text-primary">Terms & Conditions</a>
 				</div>
 			</div>
 		</div>
